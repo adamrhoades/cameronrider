@@ -51,7 +51,7 @@
   
   var add_image_to_container = function(photo){
     var img_src = 'http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_b.jpg';
-    var img_href = 'http://www.flickr.com/photos/' + flickrData.photoset.ownername + '/' + photo.id + '/in/' + opts.photoset;
+    var img_href = 'http://www.flickr.com/photos/cameron-rider/' + photo.id + '/in/' + opts.photoset;
     
     var td = $('<td/>');
     var a = $('<a/>').attr('href', img_href).attr('target', '_blank');
